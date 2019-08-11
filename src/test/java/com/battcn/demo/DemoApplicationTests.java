@@ -27,7 +27,6 @@ public class DemoApplicationTests {
 
 	@Before
 	public void setUp() throws Exception {
-		// TODO 因为我们修改了 content-path 所以请求后面要带上
 		this.base = new URL("http://localhost:" + port + "/demo1");
 	}
 

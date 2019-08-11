@@ -15,11 +15,11 @@ The following guides illustrate how to use some features concretely:
 
 ### Spring Tutorial
 https://github.com/battcn/spring-boot2-learning
-chapter1： 一起来学Spring Boot | 第一篇：构建第一个Spring Boot工程
-chapter2： 一起来学Spring Boot | 第二篇：Spring Boot配置详解
-chapter3： 一起来学Spring Boot | 第四篇：整合Thymeleaf模板
-chapter4： 一起来学Spring Boot | 第五篇：使用JdbcTemplate访问数据库
-chapter5： 一起来学Spring Boot | 第六篇：整合Spring Data Jpa
-chapter6： 一起来学Spring Boot | 第七篇：整合Mybatis
-chapter7： 一起来学Spring Boot | 第八篇：通用Mapper与分页插件的集成
+* chapter1： 一起来学Spring Boot | 第一篇：构建第一个Spring Boot工程
+* chapter2： 一起来学Spring Boot | 第二篇：Spring Boot配置详解
+* chapter3： 一起来学Spring Boot | 第四篇：整合Thymeleaf模板
+* chapter4： 一起来学Spring Boot | 第五篇：使用JdbcTemplate访问数据库
+* chapter5： 一起来学Spring Boot | 第六篇：整合Spring Data Jpa
+* chapter6： 一起来学Spring Boot | 第七篇：整合Mybatis
+* chapter7： 一起来学Spring Boot | 第八篇：通用Mapper与分页插件的集成
 .....
