@@ -1,7 +1,6 @@
 package com.battcn.demo.controller;
 
-import com.battcn.demo.exception.Result;
-import com.battcn.demo.exception.ResultTypeEnum;
+import com.battcn.demo.exception.MyException;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -14,18 +13,26 @@ import org.springframework.web.bind.annotation.RestController;
 public class ExceptionController {
 
     /**
-     * 成功返回值
+     * 抛出运行时异常
      */
-    @RequestMapping("/querySuccess")
-    public Result<String> querySuccess(){
-        return Result.success("我是数据");
+    @RequestMapping("/throwRuntimeException")
+    public void throwRuntimeException(){
+        throw new RuntimeException();
     }
 
     /**
-     * 错误返回值
+     * 抛出运行时异常
      */
-    @RequestMapping("/queryError")
-    public Result<String> queryError(){
-        return Result.error(ResultTypeEnum.SERVICE_ERROR);
+    @RequestMapping("/throwIllegalArgumentException")
+    public void throwIllegalArgumentException(){
+        throw new IllegalArgumentException();
+    }
+
+    /**
+     * 抛出自定义异常
+     */
+    @RequestMapping("/throwMyException")
+    public void throwMyException(){
+        throw new MyException("我是主动抛出来的");
     }
 }
